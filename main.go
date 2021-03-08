@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+
 	"github.com/gorilla/mux"
-	
 )
 
 type Employee struct {
@@ -94,3 +94,4 @@ func main() {
 	}
 	handleRequests()
 }
+
