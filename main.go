@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
-	"mux"
+	"github.com/gorilla/mux"
 	"net/http"
 )
 
